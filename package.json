@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "compile": "tsc",
+    "build": "tsc",
     "lint": "prettier-check \"src/**/*.ts\"",
     "lint-fix": "prettier --write \"src/**/*.ts\"",
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -12,8 +12,8 @@ const typeDefs = gql`
 // schema.  We'll retrieve books from the "books" array above.
 const resolvers = {
   Query: {
-    ping: () => "pong",
-  },
+    ping: () => "pong"
+  }
 };
 
 // In the most basic sense, the ApolloServer can be started
