@@ -1,11 +1,11 @@
-sudo: false
-language: node_js
-node_js:
-- "8"
+language: go
+dist: xenial
 
-install:
-- npm install
+go:
+  - 1.11.x
+
+env:
+  - GO111MODULE=on
 
 script:
-- npm run lint
-- npm run build
+  - make build
